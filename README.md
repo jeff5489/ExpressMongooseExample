@@ -44,7 +44,8 @@ Steps to create a express mongoose project
 
 Explainations
 
-    body-parser - To parse the data coming from POST requests, you have to install the body-parser package. This package allows you to use a series of middleware, which can decode data in different formats.
+    body-parser - To parse the data coming from POST requests, you have to install the body-parser package. 
+    This package allows you to use a series of middleware, which can decode data in different formats.
 
     cors - Cross-origin resource sharing (CORS) is a mechanism that allows restricted resources on a web page to be requested from another domain outside the domain from which the first resource was served
 
@@ -63,7 +64,11 @@ Explainations
 
     .env - hidden file for environment variables. variables are accessible from the app as process.env.VAR_NAME.
 
-    Middleware - Middleware functions are functions that take 3 arguments: req, res, and the next function. These functions execute some code that can have side effects on the app, and usually add information to the request or response objects. They can also end the cycle by sending a response when some condition is met. If they don’t send the response when they are done, they start the execution of the next function in the stack. This triggers calling the 3rd argument, next().
+    Middleware - Middleware functions are functions that take 3 arguments: req, res, and the next function. 
+    These functions execute some code that can have side effects on the app, and usually add information to the request or response objects. 
+    They can also end the cycle by sending a response when some condition is met. 
+    If they don’t send the response when they are done, they start the execution of the next function in the stack. 
+    This triggers calling the 3rd argument, next().
 
     Route parameters - named segments of the URL, delimited by slashes (/). Values can be found in the req.params.
 
